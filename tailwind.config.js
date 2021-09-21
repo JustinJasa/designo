@@ -13,7 +13,7 @@ module.exports = {
 			},
 			white: colors.white,
 			gray: {
-				DEFAULT: 'gray',
+				DEFAULT: '#979797',
 				light: '#F1F3F5',
 				dark: '#333136',
 			},
@@ -24,6 +24,14 @@ module.exports = {
 				DEFAULT: '#e7816b',
 				light: '#FFAD9B',
 			},
+		},
+		fontSize: {
+			sm: '12px',
+			base: '16px',
+			medium: '20px',
+			lg: '24px',
+			h2: '40px',
+			h1: '48px',
 		},
 	},
 	variants: {
