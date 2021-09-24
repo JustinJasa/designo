@@ -33,6 +33,16 @@ module.exports = {
 			h2: '40px',
 			h1: '48px',
 		},
+		/* 		backgroundImage: {
+			'service-web':
+				'url(./public/assets/home/desktop/image-web-design-large.jpg)',
+			'service-app': 'url(./public/assets/home/desktop/image-app-design.jpg)',
+			'service-graphic':
+				'url(./public/assets/home/desktop/image-graphic-design.jpg)',
+		}, */
+		fontFamily: {
+			body: ['Jost'],
+		},
 	},
 	variants: {
 		extend: {},
