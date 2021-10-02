@@ -2,6 +2,7 @@ import React from 'react';
 import Image from 'next/image';
 import Hero from '../public/assets/about/desktop/image-about-hero.jpg';
 import Talent from '../public/assets/about/desktop/image-real-deal.jpg';
+import Locations from '../components/locations/locations';
 
 function ourcompany() {
 	return (
@@ -39,22 +40,8 @@ function ourcompany() {
 					encapsulates their brand's story and mission.
 				</p>
 			</div>
-			<div className="flex flex-row m-auto w-4/5 text-center py-20">
-				<div>
-					<Image src={Hero} alt="Hero" className="rounded-2xl " />
-					<h3>Canada</h3>
-					<button>See Location</button>
-				</div>
-				<div>
-					<Image src={Hero} alt="Hero" className="rounded-2xl " />
-					<h3>Canada</h3>
-					<button>See Location</button>
-				</div>
-				<div>
-					<Image src={Hero} alt="Hero" className="rounded-2xl " />
-					<h3>Canada</h3>
-					<button>See Location</button>
-				</div>
+			<div>
+				<Locations />
 			</div>
 			<div className="bg-peach w-7/12 flex flex-row mx-auto my-10 rounded-2xl">
 				<h2>The Real Deal</h2>

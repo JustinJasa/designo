@@ -4,7 +4,14 @@ module.exports = {
 	purge: ['./pages/**/*.{js,ts,jsx,tsx}', './components/**/*.{js,ts,jsx,tsx}'],
 	darkMode: false, // or 'media' or 'class'
 	theme: {
-		extend: {},
+		extend: {
+			width: {
+				card: '350px',
+			},
+			height: {
+				card: '478px',
+			},
+		},
 		colors: {
 			transparent: 'transparent',
 			current: 'currentColor',
@@ -23,6 +30,7 @@ module.exports = {
 			peach: {
 				DEFAULT: '#e7816b',
 				light: '#FFAD9B',
+				card: '#FDF3F0',
 			},
 		},
 		fontSize: {
@@ -30,9 +38,11 @@ module.exports = {
 			base: '16px',
 			medium: '20px',
 			lg: '24px',
+			h3: '32px',
 			h2: '40px',
 			h1: '48px',
 		},
+
 		/* 		backgroundImage: {
 			'service-web':
 				'url(./public/assets/home/desktop/image-web-design-large.jpg)',
