@@ -23,9 +23,11 @@ function footer() {
 					</p>
 				</div>
 				<div>
-					<button className="w-30 rounded-xl bg-white text-black text-lg p-5">
-						GET IN TOUCH
-					</button>
+					<Link href="/contactus">
+						<button className="w-30 rounded-xl bg-white text-black text-lg p-5">
+							GET IN TOUCH
+						</button>
+					</Link>
 				</div>
 			</section>
 			<section className="bg-black flex flex-col w-full justify-between py-12">

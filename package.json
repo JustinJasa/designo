@@ -4,18 +4,21 @@
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
-		"build": "react-scripts build",
+		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
 		"build-css": "tailwindcss build src/styles.css -o public/styles.css"
 	},
 	"dependencies": {
+		"emailjs-com": "^3.2.0",
+		"formik": "^2.2.9",
 		"google-maps-react": "^2.0.6",
 		"grommet-icons": "^4.6.2",
-		"next": "11.1.2",
-		"react": "17.0.2",
-		"react-dom": "17.0.2",
-		"react-modal": "^3.14.3"
+		"next": "^11.1.2",
+		"react": "^17.0.2",
+		"react-dom": "^17.0.2",
+		"react-modal": "^3.14.3",
+		"react-toastify": "^8.0.3"
 	},
 	"devDependencies": {
 		"autoprefixer": "^10.3.4",
