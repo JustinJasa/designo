@@ -1,37 +1,37 @@
 import React, { useState } from 'react';
-import Image from 'next/image';
 import ProductCard from '../components/productcards/ProductCard';
+import Image from 'next/image';
 import Express from '../public/assets/web-design/desktop/image-express.jpg';
 
 function webdesign() {
 	const [data, setData] = useState([
 		{
-			img: '../public/assets/web-design/desktop/image-transfer.jpg',
+			img: '/../public/assets/web-design/desktop/image-express.jpg',
 			title: 'EXPRESS',
 			desc: 'A multi-carrier shipping website for ecommerce businesses',
 		},
 		{
-			img: '../public/assets/web-design/desktop/image-transfer.jpg',
+			img: '/../public/assets/web-design/desktop/image-transfer.jpg',
 			title: 'TRANSFER',
 			desc: 'Site for low-cost money transfer and sending money with seconds',
 		},
 		{
-			img: '../public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/web-design/desktop/image-photon.jpg',
 			title: 'PHOTON',
 			desc: 'A state-of-the-art music player with high-resolution audio',
 		},
 		{
-			img: '../public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/web-design/desktop/image-builder.jpg',
 			title: 'BUILDER',
 			desc: 'Connects users with local contractors based on their location',
 		},
 		{
-			img: '../public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/web-design/desktop/image-blogr.jpg',
 			title: 'BLOGR',
 			desc: 'Blogr is a platform for creating an online blog or publication',
 		},
 		{
-			img: '../public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/web-design/desktop/image-camp.jpg',
 			title: 'CAMP',
 			desc: 'Get expert training in coding, data, design and digital marketing',
 		},

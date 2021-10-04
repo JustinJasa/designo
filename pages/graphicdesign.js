@@ -4,17 +4,17 @@ import ProductCard from '../components/productcards/ProductCard';
 function GraphicDesign() {
 	const [data, setData] = useState([
 		{
-			img: '/public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/graphic-design/desktop/image-change.jpg',
 			title: 'TIM BROWN',
 			desc: `A book cover designed for Tim Brown's new release, 'Change'`,
 		},
 		{
-			img: '/public/assets/web-design/desktop/image-transfer.jpg',
+			img: '/../public/assets/graphic-design/desktop/image-boxed-water.jpg',
 			title: 'BOXED WATER',
 			desc: 'A simple packaging concept made for Boxed Water',
 		},
 		{
-			img: '/public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/graphic-design/desktop/image-science.jpg',
 			title: 'SCIENCE !',
 			desc: 'A poster made in collaboration with the Federal Art Project',
 		},

@@ -4,27 +4,27 @@ import ProductCard from '../components/productcards/ProductCard';
 function appdesign() {
 	const [data, setData] = useState([
 		{
-			img: '/public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/app-design/desktop/image-airfilter.jpg',
 			title: 'AIRFILTER',
 			desc: 'Solving the problem of poor indoor air quality by filtering the air',
 		},
 		{
-			img: '/public/assets/web-design/desktop/image-transfer.jpg',
+			img: '/../public/assets/app-design/desktop/image-eyecam.jpg',
 			title: 'EYECAM',
 			desc: 'Product that lets you edit your favorite photos and videos at any time',
 		},
 		{
-			img: '/public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/app-design/desktop/image-faceit.jpg',
 			title: 'FACEIT',
 			desc: 'Get to meet your favorite internet superstar with the faceit app',
 		},
 		{
-			img: '/public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/app-design/desktop/image-todo.jpg',
 			title: 'TODO',
 			desc: 'A todo app that feature cloud sync with light and dark mode',
 		},
 		{
-			img: '/public/assets/web-design/desktop/image-express.jpg',
+			img: '/../public/assets/app-design/desktop/image-loopstudios.jpg',
 			title: 'LOOPSTUDIOS',
 			desc: 'A VR experience app made for loop studios',
 		},
