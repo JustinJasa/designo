@@ -3,23 +3,23 @@ import Link from 'next/link';
 
 function services() {
 	return (
-		<section className="my-20">
-			<div className="bg-service-web">
-				<h2>Web Design</h2>
+		<section className="grid grid-col-2 grid-row-2 my-20 place-items-center ">
+			<div className="bg-service-web grid-rows-2 grid-col-1 rounded-2xl">
+				<h2 className="text-h2 text-white font-bold">Web Design</h2>
 				<Link href="/webdesign">
-					<a>View Projects</a>
+					<a className="text-white">View Projects</a>
 				</Link>
 			</div>
-			<div>
-				<h2>App Design</h2>
+			<div className="bg-service-app grid-rows-1 rounded-2xl">
+				<h2 className="text-h2 text-white font-bold">App Design</h2>
 				<Link href="/appdesign">
-					<a>View Projects</a>
+					<a className="text-white">View Projects</a>
 				</Link>
 			</div>
-			<div>
-				<h2>Graphic Design</h2>
+			<div className="bg-service-graphic grid-rows-1 rounded-2xl">
+				<h2 className="text-h2 text-white font-bold">Graphic Design</h2>
 				<Link href="/graphicdesign">
-					<a>View Projects</a>
+					<a className="text-white">View Projects</a>
 				</Link>
 			</div>
 		</section>

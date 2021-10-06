@@ -7,10 +7,19 @@ module.exports = {
 		extend: {
 			width: {
 				card: '350px',
+				'service-card': '541px',
 			},
 			height: {
 				card: '478px',
+				'service-card': '308px',
 			},
+			backgroundImage: (theme) => ({
+				'service-web': "url('/assets/home/desktop/image-web-design-large.jpg')",
+				'service-app':
+					"url('/public/assets/home/desktop/image-app-design.jpg')",
+				'service-graphic':
+					"url('/assets/home/desktop/image-graphic-design.jpg')",
+			}),
 		},
 		colors: {
 			transparent: 'transparent',

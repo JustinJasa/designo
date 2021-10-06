@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProductCard from '../components/productcards/ProductCard';
+import ServicesCard from '../components/ServicesCard/ServicesCard';
 
 function GraphicDesign() {
 	const [data, setData] = useState([
@@ -20,6 +21,8 @@ function GraphicDesign() {
 		},
 	]);
 
+	const titles = ['Web Design', 'App Design'];
+
 	return (
 		<section>
 			<div className="bg-peach flex flex-col self-center align-center items-center m-auto w-4/6 rounded-2xl px-10 py-16 text-center">
@@ -31,8 +34,8 @@ function GraphicDesign() {
 					your business objectives.
 				</p>
 			</div>
-
 			<ProductCard data={data} />
+			<ServicesCard title={titles} />
 		</section>
 	);
 }

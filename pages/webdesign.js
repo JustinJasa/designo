@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import ProductCard from '../components/productcards/ProductCard';
 import Image from 'next/image';
 import Express from '../public/assets/web-design/desktop/image-express.jpg';
+import ServicesCard from '../components/ServicesCard/ServicesCard';
 
 function webdesign() {
 	const [data, setData] = useState([
@@ -37,6 +38,8 @@ function webdesign() {
 		},
 	]);
 
+	const titles = ['App Design', 'Graphic Design'];
+
 	return (
 		<section>
 			<div className="bg-peach flex flex-col self-center align-center items-center m-auto w-4/6 rounded-2xl px-10 py-16 text-center">
@@ -48,6 +51,7 @@ function webdesign() {
 			</div>
 
 			<ProductCard data={data} />
+			<ServicesCard title={titles} />
 		</section>
 	);
 }

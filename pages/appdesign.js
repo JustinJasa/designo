@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ProductCard from '../components/productcards/ProductCard';
+import ServicesCard from '../components/ServicesCard/ServicesCard';
 
 function appdesign() {
 	const [data, setData] = useState([
@@ -30,6 +31,8 @@ function appdesign() {
 		},
 	]);
 
+	const titles = ['Web Design', 'Graphic Design'];
+
 	return (
 		<section>
 			<div className="bg-peach flex flex-col self-center align-center items-center m-auto w-4/6 rounded-2xl px-10 py-16 text-center">
@@ -39,8 +42,8 @@ function appdesign() {
 					right at their fingertips
 				</p>
 			</div>
-
 			<ProductCard data={data} />
+			<ServicesCard title={titles} />
 		</section>
 	);
 }
