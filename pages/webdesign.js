@@ -40,18 +40,20 @@ function webdesign() {
 
 	const titles = ['App Design', 'Graphic Design'];
 
+	const links = ['/appdesign', '/graphicdesign'];
+
 	return (
 		<section>
-			<div className="bg-peach flex flex-col self-center align-center items-center m-auto w-4/6 rounded-2xl px-10 py-16 text-center">
-				<h2 className="text-white text-h1 w-4/5 mb-5 font-bold">Web Design</h2>
-				<p className="w-1/2 text-white">
+			<div className="bg-peach flex flex-col self-center align-center items-center m-auto w-full md:w-4/6 md:rounded-2xl px-10 py-16 text-center">
+				<h2 className="text-white text-h2 mb-5 font-medium">Web Design</h2>
+				<p className="md:w-1/2 text-mobile text-white">
 					We Build Websites that servce as powerful marketing tools and bring
 					memorable brand experiences
 				</p>
 			</div>
 
 			<ProductCard data={data} />
-			<ServicesCard title={titles} />
+			<ServicesCard title={titles} links={links} />
 		</section>
 	);
 }

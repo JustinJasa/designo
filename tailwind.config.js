@@ -8,10 +8,12 @@ module.exports = {
 			width: {
 				card: '350px',
 				'service-card': '541px',
+				'card-mobile': '327px',
 			},
 			height: {
 				card: '478px',
 				'service-card': '308px',
+				'card-mobile': '250px',
 			},
 			backgroundImage: (theme) => ({
 				'service-web': "url('/assets/home/desktop/image-web-design-large.jpg')",
@@ -44,6 +46,7 @@ module.exports = {
 		},
 		fontSize: {
 			sm: '12px',
+			mobile: '14px',
 			base: '16px',
 			medium: '20px',
 			lg: '24px',

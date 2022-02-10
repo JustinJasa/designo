@@ -3,11 +3,11 @@ import Image from 'next/image';
 
 function ProductCard({ data }) {
 	return (
-		<div className="grid grid-cols-3 grid-rows-2 place-items-center m-32 gap-x-4 gap-y-10">
+		<div className="flex flex-wrap justify-center items-center ">
 			{data.map((item, i) => {
 				return (
 					<div>
-						<div className="w-card h-card bg-peach-card rounded-3xl text-center">
+						<div className="w-card h-card bg-peach-card my-6 rounded-3xl text-center">
 							<Image
 								key={i}
 								src={item.img}

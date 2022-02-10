@@ -1,26 +1,42 @@
 import React from 'react';
 import Link from 'next/link';
+import { ChevronRightIcon } from '@heroicons/react/solid';
 
 function services() {
 	return (
-		<section className="grid grid-col-2 grid-row-2 my-20 place-items-center ">
-			<div className="bg-service-web grid-rows-2 grid-col-1 rounded-2xl">
-				<h2 className="text-h2 text-white font-bold">Web Design</h2>
-				<Link href="/webdesign">
-					<a className="text-white">View Projects</a>
-				</Link>
+		<section className="flex flex-wrap items-center justify-center">
+			<div className="bg-black w-card-mobile flex flex-col items-center justify-center  h-card-mobile my-5 rounded-2xl">
+				<h2 className="text-h2 text-white uppercase ">Web Design</h2>
+				<div className="flex items-center justify-center w-4/5 mt-6">
+					<Link href="/webdesign">
+						<a className=" text-white uppercase whitespace-nowrap">
+							View Projects
+						</a>
+					</Link>
+					<ChevronRightIcon className="text-peach w-8 h-8 " />
+				</div>
 			</div>
-			<div className="bg-service-app grid-rows-1 rounded-2xl">
-				<h2 className="text-h2 text-white font-bold">App Design</h2>
-				<Link href="/appdesign">
-					<a className="text-white">View Projects</a>
-				</Link>
+			<div className="bg-black w-card-mobile flex flex-col items-center justify-center h-card-mobile my-5 rounded-2xl">
+				<h2 className="text-h2 text-white uppercase ">App Design</h2>
+				<div className="flex items-center justify-center w-4/5 mt-6">
+					<Link href="/appdesign">
+						<a className=" text-white uppercase whitespace-nowrap">
+							View Projects
+						</a>
+					</Link>
+					<ChevronRightIcon className="text-peach w-8 h-8 " />
+				</div>
 			</div>
-			<div className="bg-service-graphic grid-rows-1 rounded-2xl">
-				<h2 className="text-h2 text-white font-bold">Graphic Design</h2>
-				<Link href="/graphicdesign">
-					<a className="text-white">View Projects</a>
-				</Link>
+			<div className="bg-black w-card-mobile flex flex-col items-center justify-center h-card-mobile my-5 rounded-2xl">
+				<h2 className="text-h2 text-white uppercase ">Graphic Design</h2>
+				<div className="flex items-center justify-center w-4/5 mt-6">
+					<Link href="/graphicdesign">
+						<a className=" text-white uppercase whitespace-nowrap">
+							View Projects
+						</a>
+					</Link>
+					<ChevronRightIcon className="text-peach w-8 h-8 " />
+				</div>
 			</div>
 		</section>
 	);
